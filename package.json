@@ -1,11 +1,23 @@
 {
   "name": "basic-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "Projeto básico para configuração do jenkins",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guisequeira/basic-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/guisequeira/basic-project/issues"
+  },
+  "homepage": "https://github.com/guisequeira/basic-project#readme",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
 }
