@@ -1,1 +1,3 @@
-console.log('NODEJS WORKING');
+module.exports = () => {
+	console.log('NODEJS WORKING');
+}
