@@ -18,6 +18,12 @@
   },
   "homepage": "https://github.com/guisequeira/basic-project#readme",
   "dependencies": {
-    "gulp": "^3.9.1"
+    "beepbeep": "^1.2.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-ruby-sass": "^2.1.0",
+    "gulp-scss-lint": "^0.4.0",
+    "gulp-uglifyjs": "^0.6.2",
+    "gulp-util": "^3.0.7"
   }
 }
