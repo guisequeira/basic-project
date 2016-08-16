@@ -11,7 +11,6 @@ var htmlmin 			= require('gulp-htmlmin');
 
 var sass 					= require('gulp-sass');
 var scsslint = require('gulp-scss-lint');
-var through = require('through2');
 
 gulp.task('minify', function() {
   return gulp.src('src/*.html')
