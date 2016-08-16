@@ -23,7 +23,8 @@ var csslintErrorCount = {};
 gulp.task('scss-lint', function() {
   return gulp.src('src/app/scss/*.scss')
     .pipe(scsslint({
-      'filePipeOutput': 'scssReport.json'
+      'reporterOutputFormat': 'Checkstyle',
+      'filePipeOutput': 'scssReport.xml'
     }))
     .pipe(gulp.dest('./reports'));
 });
