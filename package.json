@@ -19,6 +19,7 @@
   "homepage": "https://github.com/guisequeira/basic-project#readme",
   "dependencies": {
     "beepbeep": "^1.2.0",
+    "browser-sync": "^2.14.0",
     "gulp-htmlmin": "^2.0.0",
     "gulp-livereload": "^3.8.1",
     "gulp-plumber": "^1.1.0",
