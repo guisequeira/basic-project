@@ -1,3 +1,64 @@
 body asd {
   background-color: #333;
-  color: #fff; }
+  color: white; }
+
+.no-space-after-colon {
+  display: block; }
+
+.no-semicolon {
+  position: relative; }
+
+.invalid-hex {
+  color: #FFF00G; }
+
+.unnecessary-prefixes {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px; }
+
+.float-1 {
+  position: relative;
+  float: left; }
+
+.float-2 {
+  position: relative;
+  float: left; }
+
+.float-3 {
+  position: relative;
+  float: left; }
+
+.float-4 {
+  position: relative;
+  float: left; }
+
+.float-5 {
+  position: relative;
+  float: left; }
+
+.float-6 {
+  position: relative;
+  float: left; }
+
+.float-7 {
+  position: relative;
+  float: left; }
+
+.float-8 {
+  position: relative;
+  float: left; }
+
+.float-9 {
+  position: relative;
+  float: left; }
+
+.float- {
+  position: relative;
+  float: left; }
+
+.duplicate-rule {
+  display: block;
+  transition: opacity .2s;
+  color: #444;
+  background-color: #eee;
+  transition: background-color .4s; }

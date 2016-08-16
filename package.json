@@ -25,5 +25,8 @@
     "gulp-scss-lint": "^0.4.0",
     "gulp-uglifyjs": "^0.6.2",
     "gulp-util": "^3.0.7"
+  },
+  "devDependencies": {
+    "through2": "^2.0.1"
   }
 }
