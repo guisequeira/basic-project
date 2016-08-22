@@ -21,6 +21,8 @@
     "beepbeep": "^1.2.0",
     "browser-sync": "^2.14.0",
     "gulp-htmlmin": "^2.0.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-jshint-jenkins-reporter": "^1.1.0",
     "gulp-livereload": "^3.8.1",
     "gulp-plumber": "^1.1.0",
     "gulp-ruby-sass": "^2.1.0",
@@ -28,6 +30,7 @@
     "gulp-scss-lint": "^0.4.0",
     "gulp-uglifyjs": "^0.6.2",
     "gulp-util": "^3.0.7",
+    "jshint": "^2.9.3",
     "run-sequence": "^1.2.2"
   },
   "devDependencies": {

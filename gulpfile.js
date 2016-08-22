@@ -12,6 +12,17 @@ var htmlmin 			= require('gulp-htmlmin');
 var sass 					= require('gulp-sass');
 var scsslint = require('gulp-scss-lint');
 
+
+var jshint = require('gulp-jshint');
+
+gulp.task('lint', function() {
+  return gulp.src('./src/assets/js/*.js')
+    .pipe(jshint())
+    .pipe(jshint.reporter('gulp-jshint-jenkins-reporter', {
+      filename: 'reports/jshint-checkstyle.xml'
+    }));
+});
+
 gulp.task('minify', function() {
   return gulp.src('src/*.html')
     .pipe(htmlmin({collapseWhitespace: true}))
