@@ -14,13 +14,16 @@ var scsslint = require('gulp-scss-lint');
 
 
 var jshint = require('gulp-jshint');
+var jshintXMLReporter = require('gulp-jshint-xml-file-reporter');
 
 gulp.task('lint', function() {
   return gulp.src('./src/assets/js/*.js')
     .pipe(jshint())
-    .pipe(jshint.reporter('gulp-jshint-jenkins-reporter', {
-      filename: 'reports/jshint-checkstyle.xml'
-    }));
+    .pipe(jshint.reporter(jshintXMLReporter))
+        .on('end', jshintXMLReporter.writeFile({
+            format: 'jslint',
+            filePath: './reports/jshint.xml'
+        }));
 });
 
 gulp.task('minify', function() {

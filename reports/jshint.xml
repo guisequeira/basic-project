@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jslint>
+	<file name="src/assets/js/main.js">
+		<issue line="26" char="31" reason="Use &apos;!==&apos; to compare with &apos;true&apos;." evidence="    if (count &gt;= 25 &amp;&amp; flag25 != true) {" severity="W" />
+		<issue line="29" char="38" reason="Use &apos;!==&apos; to compare with &apos;true&apos;." evidence="    } else if (count &gt;= 50 &amp;&amp; flag50 != true) {" severity="W" />
+		<issue line="32" char="38" reason="Use &apos;!==&apos; to compare with &apos;true&apos;." evidence="    } else if (count &gt;= 75 &amp;&amp; flag75 != true) {" severity="W" />
+		<issue line="35" char="6" reason="Unnecessary semicolon." evidence="    };" severity="W" />
+		<issue line="82" char="2" reason="Missing semicolon." evidence="}" severity="W" />
+		<issue line="96" char="34" reason="Missing semicolon." evidence="    topScroll =  $(w).scrollTop()" severity="W" />
+		<issue line="108" char="5" reason="Missing semicolon." evidence="  })" severity="W" />
+		<issue line="116" char="5" reason="Missing semicolon." evidence="  })" severity="W" />
+		<issue line="117" char="3" reason="Missing semicolon." evidence="})" severity="W" />
+	</file>
+</jslint>
